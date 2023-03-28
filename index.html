@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>전공 동아리</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="Inner">
+      <header>
+        <div class="lefts">
+          <a
+            class="information"
+            href="https://about.google/?fg=1&utm_source=google-KR&utm_medium=referral&utm_campaign=hp-header"
+            >google 정보</a
+          >
+
+          <a
+            class="store"
+            href="https://accounts.google.com/info/servicerestricted?es=ABAdc_inBKgz9wjXuQoTBELhaR1JgfIPRIASRnBBya9n8zqVA-_fo9edhk6Hq8T2Ja3engYHRXIF&srcurl=https://store.google.com/KR?utm_source%3Dhp_header%26utm_medium%3Dgoogle_ooo%26utm_campaign%3DGS100042%26hl%3Dko-KR"
+            >스토어</a
+          >
+        </div>
+
+        <div class="rights">
+          <a href="https://mail.google.com/mail/u/0/#inbox" class="gmail"
+            >Gmail</a
+          >
+          <a href="https://www.google.co.kr/imghp?hl=ko&ogbl" class="image"
+            >이미지</a
+          >
+
+          <div class="dots">
+            <img src="./img/Dots.png" alt="dots" />
+          </div>
+
+          <div class="profile">
+            <img src="./img/Profile.png" alt="profile" />
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section style="text-align: center">
+          <img
+            class="google"
+            src="https://www.google.co.kr/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+          />
+
+          <div class="cover">
+            <div class="cover-input">
+              <img class="search" src="./img/Search.png" />
+
+              <input id="input" type="text" onkeyup="X()" />
+
+              <button class="bt" id="bt" onclick="Remove()" title="지우기">
+                <img id="x" class="x" src="./img/X.png" />
+              </button>
+
+              <img
+                class="keyboard"
+                src="./img/Keyboard.png"
+                title="입력 도구"
+              />
+
+              <img class="mike" src="./img/Mike.png" title="음성 검색" />
+
+              <img
+                class="camera"
+                src="./img/Camera.png"
+                title="이미지로 검색"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section style="margin-top: 30px; text-align: center">
+          <button class="googleSearch bts" onclick="Remove()">
+            Google 검색
+          </button>
+          <button class="bts">I'm Feeling Lucky</button>
+        </section>
+      </main>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

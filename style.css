@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #212121;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.Inner {
+  width: 97%;
+  height: 100vh;
+}
+
+header {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lefts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.store {
+  margin-left: 20px;
+}
+
+.rights {
+  width: 190px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dots {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dots:hover {
+  border-radius: 20px;
+  background-color: #f0f0f0;
+}
+.dots img {
+  width: 16px;
+}
+
+.profile {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile:hover {
+  border-radius: 20px;
+  background-color: #f0f0f0;
+}
+.profile img {
+  width: 32px;
+}
+
+main {
+  margin-top: 200px;
+  width: 100%;
+}
+
+.google {
+  width: 272px;
+}
+
+.cover {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.cover-input {
+  padding: 0 20px 0 20px;
+  width: 555px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  border: solid 1px #dfe1e5;
+  border-radius: 50px;
+}
+.cover-input:hover {
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  border: solid 1px #ffffff;
+}
+
+.search {
+  width: 15px;
+}
+
+input {
+  margin-left: 20px;
+  width: 354px;
+  height: 24px;
+  font-size: 16px;
+  border: none;
+}
+input:focus {
+  outline: none;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+.bt {
+  width: 54px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-right: solid 0px #dadce0;
+}
+
+.x {
+  width: 14px;
+  visibility: hidden;
+}
+
+.keyboard {
+  margin-left: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.mike {
+  margin-left: 20px;
+  width: 14px;
+  cursor: pointer;
+}
+
+.camera {
+  margin-left: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.bts {
+  padding: 10px 15px 10px 15px;
+  font-size: 14px;
+  color: #3d4043;
+  cursor: pointer;
+  background-color: #f8f9fa;
+  border: solid 1px #f8f9fa;
+  border-radius: 5px;
+}
+.bts:hover {
+  border-color: #dadce0;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.googleSearch {
+  margin-right: 10px;
+}
